@@ -1,0 +1,8 @@
+{
+  "grades": [
+    {"assignment": "a", "grade": 7},
+    {"assignment": "b", "grade": 6},
+    {"assignment": "c", "grade": 9},
+    {"assignment": "d", "grade": 1}
+  ]
+}
