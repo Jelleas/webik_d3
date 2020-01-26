@@ -29,7 +29,7 @@ d3.json("data.json").then(function(data) {
   let x = d3.scaleBand().rangeRound([0, width]).padding(0.1);
   let y = d3.scaleLinear().rangeRound([height, 0]);
 
-  x.domain(data.grades.map(function(d) { return d.assignment; }));
+  x.domain(data.grades.map(d => d.assignment));
   y.domain([0, 10]);
 
   g.selectAll(".bar")
